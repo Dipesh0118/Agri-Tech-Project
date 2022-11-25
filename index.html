@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+        .main {
+            margin: auto;
+            padding: 0;
+            font-family: century gothic;
+        }
+
+        header {
+            font-family: latha;
+            color: white;
+            background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0));
+            background-image: url("images/Image1.jpg");
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+        .box{
+            width: 900px;
+            float: right;
+            border:lpx solid black;
+        }
+        .box ul li{
+            width: 120px;
+            float: left;
+            margin: 10px auto;
+            text-align: center;
+        }
+        .box ul li a{
+            text-decoration: none;
+            color: darkgrey;
+        }
+        .wd{
+            width: 300px;
+            height: 539px;
+            background-color: white;
+            opacity: 0.6;
+            padding: 55px;
+            text-decoration-color: greenyellow;
+        }
+        .wd h1{
+            color: greenyellow;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 100px;
+            font-size: 45px;
+        }
+        #ul1 {
+            float: center;
+            list-style-type: none;
+
+        }
+
+        #ul2 {
+            float: right;
+            list-style-type: none;
+        }
+
+        #ul3 {
+            list-style-type: none;
+  margin: 0;
+  padding: 1;
+  overflow: hidden;
+        }
+        #ul2 li a{
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 20px;
+            border: 0px solid #fff;
+            background-color: red;
+            transition: 0.6s ease;
+            font-size: 19px;
+        }
+
+        #ul3 li a {
+            display: block;
+            padding: 8px;
+            background-color: #ff8c00;
+            color:#fff8dc; 
+            font-weight: bold;
+            border-radius: 12px;
+            font-size: 18px;
+        }
+        #ul3 li a:hover{
+            background-color: chocolate;
+        }
+
+        ul li {
+            display: inline-block;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 20px;
+            border: 0px solid #fff;
+            background-color: red;
+            transition: 0.6s ease;
+            font-size: 15px;
+        }
+
+        ul li a:hover {
+            background-color: brown ;
+        }
+
+        .msg1 {
+            position: absolute;
+            top: 50%;
+            left: 55%;
+            transform: translate(-50%, -50%);
+        }
+
+        .msg1 h1 {
+            color: white;
+            font-size: 70px;
+          
+        }
+
+        .button {
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        #btn,
+        #btn1 {
+            border: 3px solid black;
+            padding: 10px 30px;
+            text-decoration: none;
+            transition: 0.6s ease;
+            background-color: green;
+            font-size: 30px;
+        }
+
+        #btn:hover {
+            background-color: white;
+        }
+
+        #h2 {
+            position: center;
+            left: 60%;
+        }
+        #sb{
+            display: block;
+            padding: 8px;
+            background-color: white;
+            color:orange; 
+            font-weight: bold;
+            border-radius: 12px;
+            font-size: 18px;
+                  width: 60%;
+                  align-content: center;
+        }
+        ::placeholder{
+            color:#ff8c00;
+            align:center;
+        }
+        #myInput {
+  background-image: url('images/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 80%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 40px;
+}
+
+#myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  border-radius: 15px;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: goldenrod; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+    </style>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Farmer Website</title>
+</head>
+
+<body>
+    <div id="google_translate_element"></div>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+    </script>
+
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <header>
+        <div class="main">
+            <ul>
+                <li id="ul1"><a href="#">Home</a></li>
+
+                <li id="ul1"><a href="services.html">Services</a></li>
+
+                <li id="ul1"><a href="contact1.jpg">Contact Us</a></li>
+            </ul><br>
+            <div class="box">
+                <ul id="ul3">
+                    <li id="ul3"><a href="https://agribegri.com/buy-cheap-fertilizers-online-in-india.php">Fertilizer</a></li>
+                    <li id="ul3"><a href="#">Crops</a></li>
+                    <li id="ul3"><a href="https://www.tradeindia.com/seller/machinery/agricultural-machines-tools/">Tools</a></li>
+                    
+                </ul>
+                </div>
+            <ul id="ul2">
+                <li id="ul2"><a href="login.html">Login/Register </a></li>
+            </ul>
+        </div>
+        <div class="msg1">
+            <h1>Namaste Kisaan</h1>
+            <br>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for crops..">
+
+<ul id="myUL">
+  <li><a href="rice.html">Rice</a></li>
+  <li><a href="wheat.html">Wheat</a></li>
+
+  <li><a href="maize.html">Maize</a></li>
+  <li><a href="#">Millets</a></li>
+
+  <li><a href="#">Bajra</a></li>
+  <li><a href="#">Pulses</a></li>
+  <li><a href="#">Lentil</a></li>
+  <li><a href="#">Oilseeds</a></li>
+  <li><a href="#">Groundnut</a></li>
+  <li><a href="#">Sugarcane</a></li>
+  <li><a href="cotton.html">Cotton</a></li>
+  <li><a href="#">Rubber</a></li>
+</ul>
+        </div>
+        <div class="wd">
+            <h1>"A good farmer is nothing more nor less than a handy man with a sense of humus"</h1>
+        </div>
+    </header>
+    <script>
+        function myFunction() {
+          // Declare variables
+          var input, filter, ul, li, a, i, txtValue;
+          input = document.getElementById('myInput');
+          filter = input.value.toUpperCase();
+          ul = document.getElementById("myUL");
+          li = ul.getElementsByTagName('li');
+        
+          // Loop through all list items, and hide those who don't match the search query
+          for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+            } else {
+              li[i].style.display = "none";
+            }
+          }
+        }
+        </script>
+        
+</body>
+
+</html>
